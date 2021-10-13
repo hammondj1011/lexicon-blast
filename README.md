@@ -9,4 +9,8 @@ This script was built to allow F3Nation to automate tweets based on the Lexicon 
 
 3. Timing was defined by Dark Helmet for F3Nation and Hambone defined the F3Nashville tweet timings.
 
-4. Tweets utilizing this API must not have the same text. As such, the datetime is used in the tweet itself to help drive (some) uniqueness. a random number is generated to pick the line from the database that will be tweeted out.
+4. Different Tweets utilizing this API must not have the same text. As such, the datetime is used in the tweet itself to help drive (some) uniqueness. a random number is generated to pick the line from the database that will be tweeted out.
+
+5. The inputs to the program are the user and database.
+
+6. The Python version is 3.8.1.
